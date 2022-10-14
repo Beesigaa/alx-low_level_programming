@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- *
+
  *  *main - start of the code
  *
  *   *Return: value should be zero
  *
  *    *
  *
- *     *we use put instead of print
+ *    	*we use put instead of print
  *
-**/
+*/
 int main(void)
 
 {
