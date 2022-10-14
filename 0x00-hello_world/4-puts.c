@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  *
  *  *main -is the begining point
  *
@@ -9,7 +9,7 @@
  *
  *     *we use put instead of print
  *
- *      */
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
