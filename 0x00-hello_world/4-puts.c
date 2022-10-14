@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *
- *  *main -is the begining point
+ *  *main - start of the code
  *
  *   *Return: value should be zero
  *
@@ -11,7 +11,7 @@
  *
 **/
 int main(void)
-/* main program */
+
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
