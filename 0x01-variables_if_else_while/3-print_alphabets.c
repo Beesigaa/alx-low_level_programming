@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 * main - printing alphabets
-*Description:  prints the alphabet in lowercase, and in uppercase
-Return: Always (0) (Success)
+*Description: prints the alphabet in lowercase, and in uppercase
+Return: Always Return(0) (Success)
 */
 int main(void)
 {
