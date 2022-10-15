@@ -2,7 +2,7 @@
 /**
 * main - printing alphabets
 *Description: prints the alphabet in lowercase, and in uppercase
-*Returns Always 0 (Success)
+*Return: Always 0 (Success)
 */
 int main(void)
 {
