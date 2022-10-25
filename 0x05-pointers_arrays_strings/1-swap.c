@@ -3,14 +3,14 @@
 *swap_int-Function to swap integers
 *@a: pointer to first integer
 *@b: pointer to second integer
-*swamp_them:swap variable
+*swmp:swap variable
 *return: int
 */
 void swap_int(int *a, int *b)
 {
-	int swamp_them;
+	int swmp;
 
-	swamp_them = *a;
+	swmp = *a;
 	*a = *b;
 	*b = *a;
 }
