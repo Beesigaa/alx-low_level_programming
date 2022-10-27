@@ -2,18 +2,18 @@
 /**
 *_strlen- Function to return length of string
 *@s:string
-*@ta: string counter
 *Return: length
 */
 int _strlen(char *s)
 {
-	int ta = 0; /*counter*/
+	int x;
 
+	x = 0;
 	while (*s != '\0')
 	{
-		ta++;
+		x++;
 		s++;
 	}
 
-	return (ta);
+	return (x);
 }
