@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <inttypes.h>
 /**
-* check_num - check - string there are digit
+* main - add positive numbers
 * @argc: argument counter
 * @argv: argument vector
 * Return: Always 0 (Success)
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	for (;count < argc; count++)
 	{
 		add_int = strtol(argv[count], &naaaa, 10);
-		if (*naaaa = ('\0')
+		if (*naaaa == '\0')
 		{
 			sum += add_int;
 		}
