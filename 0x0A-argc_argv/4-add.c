@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 	}
 	for (;count < argc; count++)
 	{
-		add_int = strtol(argv[i], &naaaa, 10);
+		add_int = strtol(argv[count], &naaaa, 10);
 		if (*naaaa = ('\0')
 		{
 			sum += add_int;
