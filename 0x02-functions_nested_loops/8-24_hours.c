@@ -12,9 +12,9 @@ void jack_bauer(void)
     {
 	    for (Mins = 0; Mins < 60; Mins++)
 	    {
-		    _putchar(hr);
+		    _putchar(Hr);
 		    _putchar(':');
-		    _putchar(mins);
+		    _putchar(Mins);
 		    _putchar('\n');
 	    }
     }
