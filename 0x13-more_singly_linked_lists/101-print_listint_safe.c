@@ -1,9 +1,10 @@
-#include "lists.h"  // Include the appropriate header file
+#include "lists.h"
 /**
 * print_listint_safe - prints a listint_t linked list
 * @listint: struct linked list
 * @*head: pointer variable
-*/
+* Return: return count
+ */
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t count = 0;
