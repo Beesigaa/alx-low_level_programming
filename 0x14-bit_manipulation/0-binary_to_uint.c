@@ -7,6 +7,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i, j, num = 0, potwo = 1;
+
 	if (b != NULL)
 	{
 		for (i = 0; b[i] != '\0'; i++)
