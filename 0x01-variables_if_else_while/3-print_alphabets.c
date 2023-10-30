@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	char l_case;
-	char u_case;
+	char lc;
+	char uc;
 
-	for (l_case = 'a'; l_case <= 'z'; l_case++)
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(l_case);
+		putchar(lc);
 	}
-	for (u_case = 'A'; u_case  <= 'Z'; u_case++)
+	for (uc = 'A'; uc  <= 'Z'; uc++)
 	{
-		putchar(u_case);
+		putchar(uc);
 	}
 	putchar('\n');
 	return (0);

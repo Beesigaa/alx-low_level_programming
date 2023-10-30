@@ -2,22 +2,21 @@
 /**
  * main - Starting point
  * Return: Always 0 (Success)
- * output the integers of base ten starting from zero
+ * output the integers of base ten starting from 0
  */
 int main(void)
 {
 	int n;
-	char a;
+	char alp;
 
 	for (n = 0; n < 10; n++)
 	{
 		putchar(n + '0');
 	}
-	for (a = 'a'; a <= 'f'; a++)
+	for (alp = 'a'; alp <= 'f'; alp++)
 	{
-		putchar(a);
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
 }
-
