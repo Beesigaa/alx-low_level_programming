@@ -7,14 +7,22 @@
 void print_to_98(int n)
 {
 	if (n >= 0)
-		for (; n < 99; n++)
+		if (n < 98)
 		{
-			if (n < 10)
-				_putchar("n")
-			else
+			for (; n < 99; n++)
 			{
-				_putchar((n / 10) + "0");
-				_putchar((n % 10));
+				if (n < 10)
+					_putchar(n + '0');
+				else
+				{
+					_putchar((n / 10) + '0');
+					_putchar((n % 10) + '0');
+				}
 			}
 		}
+		else
+			for (; n > 97; n--)
+			{
+				_putchar(n + '0');
+			}
 }
