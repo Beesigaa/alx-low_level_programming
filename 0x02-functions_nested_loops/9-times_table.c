@@ -12,14 +12,17 @@ void times_table(void)
 		for (n = 0; n < 10; n++)
 		{
 			ans = m * n;
-			if (ans >= 10)
+			if (ans < 10)
+				_putchar(ans + '0');
+			else
+			{
 				_putchar((ans / 10) + '0');
-			_putchar(' ');
-			_putchar(((m * n) % 10) + '0');
+				_putchar(((m * n) % 10) + '0');
+			}
 			_putchar(',');
 			_putchar(' ');
+			_putchar(' ');
 		}
-		_putchar(' ');
 		_putchar('\n');
 	}
 }
