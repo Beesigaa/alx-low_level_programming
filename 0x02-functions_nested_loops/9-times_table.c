@@ -5,24 +5,25 @@
  */
 void times_table(void)
 {
-	int m, n, ans;
+	int row, column, result;
 
-	for (m = 0; m < 10; m++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (n = 0; n < 10; n++)
+		for (column = 0; column <= 9; column++) 
 		{
-			ans = m * n;
-			if (ans < 10)
-				_putchar(ans + '0');
+			result = row * column;
+			if (column == 0)
+				_putchar('0');
 			else
-			{
-				_putchar((ans / 10) + '0');
-				_putchar(((m * n) % 10) + '0');
-			}
-			_putchar(',');
+				_putchar(',');
 			_putchar(' ');
-			_putchar(' ');
+			if (result < 10)
+				_putchar(' ');
+			else
+				_putchar((result / 10) + '0');
+			_putchar((result % 10) + '0');
+			if (column == 9)
+				_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
