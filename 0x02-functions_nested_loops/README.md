@@ -1,18 +1,7 @@
-0x02. C - Functions, nested loops
-C
- By: Julien Barbier
- Weight: 1
- Project over - took place from Jul 18, 2023 6:00 AM to Jul 19, 2023 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/106 mandatory & 0.0/36 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-Resources
-Read or watch:
+####0x02. C - Functions, nested loops
 
+##RESOURCES 
+Read or watch:
 Nested while loops
 C - Functions
 Learning to Program in C (Part 06) (stop at 14:00)
@@ -21,15 +10,7 @@ C - Header Files (stop before the “Once-Only Headers” paragraph)
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
-What are nested loops and how to use them
-What is a function and how do you use functions
-What is the difference between a declaration and a definition of a function
-What is a prototype
-Scope of variables
-What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
-What are header files and how to to use them with #include
-Requirements
+##Requirements
 General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -52,25 +33,6 @@ Any form of plagiarism is strictly forbidden and will result in removal from the
 More Info
 You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
 
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
-0. _putchar
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Write a program that prints _putchar, followed by a new line.
-
-The program should return 0
-julien@ubuntu:~/0x02$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
-julien@ubuntu:~/0x02$ ./0-putchar 
-_putchar
-julien@ubuntu:~/0x02$ 
-Repo:
-
-GitHub repository: alx-low_level_programming
-Directory: 0x02-functions_nested_loops
-File: 0-putchar.c
-     
 1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 mandatory
 Score: 0.0% (Checks completed: 0.0%)

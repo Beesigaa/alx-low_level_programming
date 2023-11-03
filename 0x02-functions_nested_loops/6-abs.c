@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- *_abs - main function
- *@n: integer to make absolute
+ *_abs - Returns the absolute value of an int 
+ *@nu: integer to make absolute
  *Return: Abosulte numbers
  */
-int _abs(int n)
+int _abs(int nu)
 {
-	if (n > 0)
+	if (nu > 0)
 	{
-		return (n);
+		return (nu);
 	}
 	else
-		return (n * -1);
+		return (nu * -1);
 }

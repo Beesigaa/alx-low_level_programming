@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *main - Starting point
+ *main - Print _putchar on screen
  *Return: Alway 0 (Success)
 */
 int main(void)

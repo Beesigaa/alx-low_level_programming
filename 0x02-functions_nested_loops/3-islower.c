@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * _islower - lowercase character validation
- * @c: Stores character in int
- * Return: 1 if c is lowercase, 0 otherwise
+ * @ch: Stores character in int
+ * Return: 1 if ch is lowercase, 0 otherwise
 */
-int _islower(int c)
+int _islower(int ch)
 {
-	if (c >= 'a' && c <= 'z')
+	if (ch >= 'a' && ch <= 'z')
 	{
 		return (1);
 	}
