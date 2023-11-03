@@ -13,9 +13,10 @@ void times_table(void)
 		{
 			ans = m * n;
 			if (ans > 9)
-				_putchar((ans / 10) + '0');
+			_putchar(' ' + (ans / 10) + '0');
 			_putchar(((m * n) % 10) + '0');
 			_putchar(',');
+			_putchar(' ');
 			_putchar(' ');
 		}
 		_putchar('\n');
