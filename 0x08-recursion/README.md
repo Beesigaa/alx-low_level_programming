@@ -1,23 +1,4 @@
-0x08. C - Recursion
-C
-Recursion
- By: Julien Barbier
- Weight: 1
- Project over - took place from Aug 2, 2023 6:00 AM to Aug 3, 2023 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/49 mandatory & 0.0/24 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-
-
-Resources
-Read or watch:
-
-0x08. Recursion, introduction
-What on Earth is Recursion?
+####0x08. Recursion, introduction What on Earth is Recursion?
 C - Recursion
 C Programming Tutorial 85, Recursion pt.1
 C Programming Tutorial 86, Recursion pt.2
