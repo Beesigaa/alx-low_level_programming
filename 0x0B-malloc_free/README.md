@@ -1,32 +1,3 @@
-0x0B. C - malloc, free
-C
-Memory allocation
- By: Julien Barbier
- Weight: 1
- Project over - took place from Aug 7, 2023 6:00 AM to Aug 9, 2023 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/47 mandatory & 0.0/18 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
-Concepts
-For this project, we expect you to look at this concept:
-
-Automatic and dynamic allocation, malloc and free
-Resources
-Read or watch:
-
-0x0a - malloc & free - quick overview.pdf
-Dynamic memory allocation in C - malloc calloc realloc free (stop at 6:50)
-man or help:
-
-malloc
-free
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
 General
 What is the difference between automatic and dynamic allocation
 What is malloc and free and how to use them
