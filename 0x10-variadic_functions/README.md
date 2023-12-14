@@ -1,35 +1,3 @@
-0x10. C - Variadic functions
-C
- By: Julien Barbier
- Weight: 1
- Project over - took place from Aug 17, 2023 6:00 AM to Aug 18, 2023 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/33 mandatory
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: no optional tasks
-Resources
-Read or watch:
-
-stdarg.h
-Variadic Functions
-Const Keyword
-man or help:
-
-stdarg
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-General
-What are variadic functions
-How to use va_start, va_arg and va_end macros
-Why and how to use the const type qualifier
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
 Requirements
 General
 Allowed editors: vi, vim, emacs
