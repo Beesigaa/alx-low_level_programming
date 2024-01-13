@@ -1,12 +1,3 @@
-General
-How to use arguments passed to your program
-What are two prototypes of main that you know of, and in which case do you use one or the other
-How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
 Requirements
 General
 Allowed editors: vi, vim, emacs
@@ -19,29 +10,7 @@ No more than 5 functions per file
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 Don’t forget to push your header file
 You are allowed to use the standard library
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
-0. It ain't what they call you, it's what you answer to
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-Write a program that prints its name, followed by a new line.
-
-If you rename the program, it will print the new name, without having to compile it again
-You should not remove the path before the name of the program
-julien@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-whatsmyname.c -o mynameis
-julien@ubuntu:~/0x0A. argc, argv$ ./mynameis 
-./mynameis
-julien@ubuntu:~/0x0A. argc, argv$ mv mynameis mynewnameis
-julien@ubuntu:~/0x0A. argc, argv$ ./mynewnameis 
-./mynewnameis
-julien@ubuntu:~/0x0A. argc, argv$ 
-Repo:
-
-GitHub repository: alx-low_level_programming
-Directory: 0x0A-argc_argv
-File: 0-whatsmyname.c
-     
+    
 1. Silence is argument carried out by other means
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
