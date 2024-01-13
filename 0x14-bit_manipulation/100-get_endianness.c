@@ -7,6 +7,7 @@ int get_endianness(void)
 {
 	int num = 258;
 	char *kno = (char *) &num;
+
 	if (*(kno + 2) > *(kno + 3))
 		return (0);
 	return (1);
